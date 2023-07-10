@@ -1,0 +1,81 @@
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 116px;
+}
+
+.title_about{
+    text-align: center;
+    color: #212121;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+    }
+.description{
+    color: #86878B;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.line{
+    width: 64px;
+    height: 2px;
+    margin: auto;
+    margin: 34px;
+    background-color: #E72424;
+}
+.card_wrap{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 50px;
+}
+
+.card {
+margin: 30px;
+width: 350px;
+height: 205px;
+flex-shrink: 0;
+}
+
+.card_img {
+    display: flex;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #E72424;
+  border-radius: 50%;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_title{
+    text-align: center;
+    color: #333;
+    font-family: 'Open sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+  }
+
+  .card_t{
+    margin-top: 16px;
+    text-align:center;
+  }
+  
+  .card_t p{
+    color: #000;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
